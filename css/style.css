@@ -1,0 +1,74 @@
+/* Estilo básico */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Barra de navegação */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.github-link {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.github-link i {
+    margin-right: 0.5rem;
+}
+
+.github-link:hover {
+    color: #888;
+}
+
+/* Estilo dos links de cidades */
+main {
+    text-align: center;
+    padding: 2rem;
+}
+
+h2 a {
+    color: royalblue;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+h2 a:hover {
+    color: darkblue;
+}
+
+/* Outros estilos */
+h2 {
+    margin: 1.5rem 0;
+}
+
+/* Estilos adicionais para parágrafos */
+p {
+    font-size: 20px;
+}
+
+/* Estilo para filmes */
+.hoje {
+    color: darkgreen;
+}
+
+.amanha {
+    color: darkblue;
+}
